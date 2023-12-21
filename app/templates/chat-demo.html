@@ -9,14 +9,19 @@
       integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA=="
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="{{ url_for('static',filename='chat-demo.css') }}">
+    <link rel="stylesheet" href="/app/static/chat-demo.css">
 </head>
 <body>
     <section class="chat-top">
-        <div class="back"><</div>
-        <div class="chat-info">
-            <span class="chat-name">General Chat</span>
-            <span class="active">10 online</span>
+        <div class="back"></div>
+        <div class="chat-about">
+            <div class="chat-profile">
+                GC
+            </div>
+            <div class="chat-info">
+              <span class="chat-name">General Chat</span>
+              <span class="active">10 online <div class="green-dot"></div></span>
+            </div>
         </div>
     </section>
     <section class="chat-container">
